@@ -1,9 +1,18 @@
-```
-npm install
-npm run dev
-```
+# hono-tutorial
 
 ```
-npm run deploy
+# local server
+bun dev
+
+# deploy(cloudflare)
+bun deploy
 ```
-# hono-tutorial
+
+###
+
+簡易的は CRED 機能を持った API の作成
+
+- /posts
+  - 一覧取得
+- /posts/id
+  　-　詳細 / 編集 / 削除
